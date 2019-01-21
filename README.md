@@ -1,9 +1,7 @@
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and deployed live at https://booksearch-app-react.herokuapp.com/.
 
 This application uses goodreads api to look for books by title, author or isbn code.
-
-This project was bootstrapped with `create-react-app` and deployed live at https://booksearch-app-react.herokuapp.com/
 
 # Running the application locally
 
