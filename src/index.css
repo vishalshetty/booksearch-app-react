@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.form-back{background: #cecece;
+    padding: 15px;
+    border-radius: 5px;}
+
+ body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2{font-weight: bold;}
+
+a{color:#000;}
+
+.search-container{padding: 10px}
+.srch{width: 180px}
+.booktitle{font-weight: bold;font-size: 20px; cursor:pointer;}
+
+.book input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.book button {
+  float: left;
+  width: 100px;
+  padding: 10px;
+  background: #F4F1EA;
+  color: #000;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 20px
+}
+
+.book button:hover {
+  background: #f1f1f1;
+}
+
+.book::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.imgthumb{
+cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .book input[type=text] {
+      width: 60%;
+}
+}
