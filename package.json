@@ -9,12 +9,10 @@
     "core.js": "^0.4.2",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.8.0",
-    "jest-enzyme": "^7.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3",
-    "react-test-renderer": "^16.7.0",
-    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
+    "react-test-renderer": "^16.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
