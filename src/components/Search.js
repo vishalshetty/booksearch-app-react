@@ -87,9 +87,7 @@ class Search extends Component {
             onChange={this.onTextChange}
             value={this.state.searchText}
           />
-          <button type="button" className="col-md-2 btn" onClick={this.onButtonClick} >
-           Search
-          </button>
+          <button type="button" className="col-md-2 btn srch-btn" onClick={this.onButtonClick} >Search</button>
         </div>
 
         {/**

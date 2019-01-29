@@ -11,6 +11,8 @@ This application uses goodreads api to look for books by title, author or isbn c
 
 `REACT_APP_API_KEY` : Goodreads API Key which can be generated from https://www.goodreads.com/api/keys
 
+You need to generate a Goodreads developer API key of your own.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -27,7 +29,9 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br>
 
-Currently there is only one test suite "renders without crashing".
+Tests with Jest Enzyme<br>
+
+There are 6 test suites which tests rendering and button clicks in files App.test, Search.test, BookSearchResult.test, BookDetails.test.<br>
 
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
