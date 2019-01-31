@@ -11,8 +11,6 @@ This application uses goodreads api to look for books by title, author or isbn c
 
 `REACT_APP_API_KEY` : Goodreads API Key which can be generated from https://www.goodreads.com/api/keys
 
-You need to generate a Goodreads developer API key of your own.
-
 ## Available Scripts
 
 In the project directory, you can run:
