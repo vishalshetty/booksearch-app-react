@@ -3,7 +3,7 @@ import Axios from "axios";
 import AllResults from "./AllResults";
 import PropTypes from "prop-types";
 
-const apiKey = process.env.REACT_APP_API_KEY;
+const apiKey = 'H53NoRZVGbM1qC3CSvukdw';
 
 class Search extends Component {
   state = {
